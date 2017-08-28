@@ -1,6 +1,7 @@
 /**
- * Created by apple on 2017/8/27.
+ * Created by apple on 2017/8/28.
  */
+
 public class Interface {
     public static void printInterface()
     {
@@ -21,7 +22,7 @@ public class Interface {
         System.out.println("              2.前台收银\n");
         System.out.println("              3.商品管理\n");
     }
-    
+
     private static void commodityMaintenanceInterface()
     {
         System.out.println("              1.添加商品\n");

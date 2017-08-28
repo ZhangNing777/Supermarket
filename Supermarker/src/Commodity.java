@@ -1,11 +1,14 @@
 /**
- * Created by apple on 2017/8/27.
+ * Created by apple on 2017/8/28.
  */
+
 public class Commodity {
 
     private String name;
     private double price;
     private int quality;
+
+    Commodity(){}
 
     Commodity(String name,double price,int quality)
     {
@@ -42,5 +45,10 @@ public class Commodity {
     public int getQuality()
     {
         return quality;
+    }
+
+    public void printCommodity()
+    {
+        System.out.println(this.name+"  "+this.price+"  "+this.quality);
     }
 }
